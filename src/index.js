@@ -1,9 +1,12 @@
+// Dependancies
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// ReactDOM = virtual DOM
+// ReactDOM has a method called .render() that renders the main 'App' component to react's virtual DOM
 ReactDOM.render(
   <React.StrictMode>
     <App />
